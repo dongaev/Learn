@@ -205,3 +205,83 @@ if (age2 < 14 || > 90){
 
 if(!(age >= 14 && age <= 90))
 
+/* Выведите столбец чисел от 1 до 50. */
+
+var wh = 0;
+
+while ( wh<= 50){
+    console.log (wh);
+    wh++;
+}
+
+var wh = 0;
+for ( ; wh <=50; wh++) {
+    console.log (wh);
+}
+
+/* Выведите столбец чисел от 1 до 100. */
+
+var i;
+
+for(i=1; i <=100; i++){
+    console.log(i);
+}
+
+var i=1;
+
+while (i<=100){
+    console.log(i);
+    i++
+}
+
+/* Выведите столбец четных чисел в промежутке от 0 до 100. */
+
+var i;
+
+for(i=0; i < 100; i+=2){
+    console.log(i);
+}
+
+var i=0;
+
+while (i<=100){
+    console.log(i);
+    i+= 2
+}
+
+/* switch (browser) {
+    case 'IE':
+      alert( 'О, да у вас IE!' );
+      break;
+  
+    case 'Chrome':
+    case 'Firefox':
+    case 'Safari':
+    case 'Opera':
+      alert( 'Да, и эти браузеры мы поддерживаем' );
+      break;
+  
+    default:
+      alert( 'Мы надеемся, что и в вашем браузере все ок!' );
+  } */
+
+  var browser = prompt('Какой у вас браузер? ', );
+
+  if (browser == 'IE'){
+      alert('О, да у вас IE!')
+  }
+  else if (browser == 'Chrome'){
+      alert('Да, и эти браузеры мы поддерживаем')
+  }
+  else if (browser == 'Firefox'){
+    alert('Да, и эти браузеры мы поддерживаем')
+}
+else if (browser == 'Safari'){
+    alert('Да, и эти браузеры мы поддерживаем')
+}
+else if (browser == 'Opera'){
+    alert('Да, и эти браузеры мы поддерживаем')
+}
+else {
+    alert('Мы надеемся, что и в вашем браузере все ок!')
+}
