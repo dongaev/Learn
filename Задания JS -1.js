@@ -330,7 +330,7 @@ var num = 1;
 var result;
 
 switch(num){
-    case 1: 
+     case 1: 
     result = 'Зима';
     break;
 
