@@ -87,3 +87,21 @@ function proverka(){
 
 }
 proverka();
+
+/* Возведите 2 в 10 степень. Результат запишите в переменную st */
+
+/* Math.pow(число, степень); - функция возводит число в степень */
+
+
+var a = prompt('a ?','');
+var n = prompt('n ?','');
+
+var st;
+
+function powpow (){
+ return Math.pow(a,n);
+}
+
+st = powpow;
+
+st();
